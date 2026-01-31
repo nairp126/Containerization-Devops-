@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Experiment 2: Docker Installation and Container Lifecycle"
 
 ---

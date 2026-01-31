@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Experiment 1: Comparison of Virtual Machines (VMs) and Containers"
 
 ---

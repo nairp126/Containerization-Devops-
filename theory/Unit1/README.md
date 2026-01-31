@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Unit 1: Introduction to Virtualization and Containerization"
 ---
 

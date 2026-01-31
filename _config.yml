@@ -7,7 +7,7 @@ email: nairp126@gmail.com # Optional: Add your email if you want
 markdown: kramdown
 theme: jekyll-theme-architect
 plugins:
-  - jekyll-remote-theme
+
   - jekyll-seo-tag
 
 # URL Settings (Important for GitHub Pages)
