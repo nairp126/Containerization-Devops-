@@ -141,3 +141,7 @@ When you run `docker pull`, where does the file come from? It comes from **Docke
 
 ---
 **Student**: Pranav R Nair | **Batch**: 2(CCVT) | **SAP ID**: 500121466
+
+### 📸 Visuals & Outputs
+
+![Screenshot 2026-01-31 084353.png](Screenshot 2026-01-31 084353.png)
