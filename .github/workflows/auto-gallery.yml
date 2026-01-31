@@ -1,0 +1,34 @@
+name: Auto Gallery
+
+on:
+  push:
+    paths:
+      - 'lab/**'
+
+permissions:
+  contents: write
+
+jobs:
+  update-gallery:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Run Auto Gallery Script
+        run: |
+          python scripts/auto_gallery.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add lab/
+          # Only commit if there are changes
+          git diff --staged --quiet || git commit -m "docs: auto-attach lab images"
+          git push
