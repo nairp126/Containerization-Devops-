@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Experiment 1: Comparison of Virtual Machines (VMs) and Containers"
-permalink: /lab/exp1
+
 ---
 
 ## 🎯 Objective

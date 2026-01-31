@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Experiment 2: Docker Installation and Container Lifecycle"
-permalink: /lab/exp2
+
 ---
 
 ## 🎯 Objective
