@@ -12,7 +12,7 @@ plugins:
 
 # URL Settings (Important for GitHub Pages)
 url: "https://nairp126.github.io" 
-baseurl: "/Containerization & Devops-" 
+baseurl: "/Containerization-Devops-" 
 
 # Exclude from processing
 exclude:
