@@ -1,8 +1,8 @@
 # Experiment 1 – Comparison of Virtual Machines (VMs) and Containers using Ubuntu and Nginx
 
 
-**Name:** NARAYAN VYAS  
-**SAP ID:** 500122747  
+**Name:** Pranav R Nair  
+**SAP ID:** 500121466  
 **Batch:** 2(CCVT)
 
 ---
