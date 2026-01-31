@@ -5,7 +5,7 @@ email: nairp126@gmail.com # Optional: Add your email if you want
 
 # Build settings
 markdown: kramdown
-theme: pages-themes/architect@v0.2.0
+theme: jekyll-theme-architect
 plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
