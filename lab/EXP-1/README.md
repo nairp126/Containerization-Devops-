@@ -224,3 +224,13 @@ Containers run in their own isolated network namespace. Port 80 inside the conta
 
 ---
 **Student**: Pranav R Nair | **Batch**: 2(CCVT) | **SAP ID**: 500121466
+
+### 📸 Visuals & Outputs
+
+![Screenshot 2026-01-24 094333.png](Screenshot 2026-01-24 094333.png)
+
+![Screenshot 2026-01-24 094344.png](Screenshot 2026-01-24 094344.png)
+
+![Screenshot 2026-01-24 094246.png](Screenshot 2026-01-24 094246.png)
+
+![Screenshot 2026-01-24 094319.png](Screenshot 2026-01-24 094319.png)
