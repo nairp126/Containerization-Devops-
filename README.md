@@ -1,3 +1,4 @@
+
 # Containerization & DevOps
 
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
@@ -27,6 +28,7 @@ Welcome to my personal laboratory and documentation repository for the **Contain
 
 * [**Exp 1: VMs vs Containers**](./lab/EXP-1/) - Comparison of Vagrant and Docker (Setup & Analysis).
 * [**Exp 2: Docker Lifecycle**](./lab/EXP-2/) - Installation, Image Management, and Basic Commands.
+* [**Exp 3: NGINX Base Image Comparison**](./lab/EXP-3/) - Deploying NGINX using Official, Ubuntu, and Alpine images to compare size, layers, and build performance.
 
 ### 📘 Theory Units
 
