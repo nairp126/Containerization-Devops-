@@ -33,7 +33,8 @@ Welcome to my personal laboratory and documentation repository for the **Contain
 
 ### 📘 Theory Units
 
-* [**Unit 1: Introduction**](./theory/Unit1/) - Core concepts of Virtualization and Containerization.
+* [**Unit 1: From Virtualization to Containers**](./theory/Unit1/) - Core concepts, history, and comparison of VM and Container architectures.
+* [**Unit 1: Docker Commands & Concepts**](./theory/Unit1/Docker%20Basic) - Essential CLI commands, flags, networking, volumes, and lifecycle management.
 
 ---
 
@@ -43,9 +44,13 @@ Welcome to my personal laboratory and documentation repository for the **Contain
 Containerization-and-Devops/
 ├── lab/
 │   ├── EXP-1/          # Experiment 1: VMs vs Containers
-│   └── EXP-2/          # Experiment 2: Docker Basics
+│   ├── EXP-2/          # Experiment 2: Docker Lifecycle
+│   ├── EXP-3/          # Experiment 3: NGINX Base Images
+│   └── EXP-4/          # Experiment 4: Docker Essentials
 ├── theory/
-│   └── Unit1/          # Unit 1: Introduction Notes
+│   └── Unit1/          
+│       ├── index.md    # Virtualization → Containers
+│       └── Docker Basic.md # Hands-on Commands
 └── README.md           # You are here
 ```
 
