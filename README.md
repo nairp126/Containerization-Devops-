@@ -37,6 +37,8 @@ Welcome to my personal laboratory and documentation repository for the **Contain
 * [**Unit 1: Docker Commands & Concepts**](./theory/Unit1/Docker%20Basic) - Essential CLI commands, flags, networking, volumes, and lifecycle management.
 * [**Unit 1: Preserving Container Changes**](./theory/Unit1/Docker%20Preserve) - `docker commit`, `save/load` vs `export/import`, and sharing images offline.
 * [**Unit 1: Dockerfile & Automation**](./theory/Unit1/Docker%20tutorial) - Dockerfile instructions, CMD vs ENTRYPOINT, layer caching, and building images the right way.
+* [**Unit 1: Docker Engine API (Part A)**](./theory/Unit1/Docker%20API%20Part%20A) - REST API fundamentals, CLI-to-API mapping, and hands-on `curl` commands.
+* [**Unit 1: Docker Engine API (Part B)**](./theory/Unit1/Docker%20API%20Part%20B) - TCP exposure, TLS security, cross-platform differences, and daemon restart strategies.
 
 ---
 
