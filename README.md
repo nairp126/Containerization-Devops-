@@ -35,6 +35,8 @@ Welcome to my personal laboratory and documentation repository for the **Contain
 
 * [**Unit 1: From Virtualization to Containers**](./theory/Unit1/) - Core concepts, history, and comparison of VM and Container architectures.
 * [**Unit 1: Docker Commands & Concepts**](./theory/Unit1/Docker%20Basic) - Essential CLI commands, flags, networking, volumes, and lifecycle management.
+* [**Unit 1: Preserving Container Changes**](./theory/Unit1/Docker%20Preserve) - `docker commit`, `save/load` vs `export/import`, and sharing images offline.
+* [**Unit 1: Dockerfile & Automation**](./theory/Unit1/Docker%20tutorial) - Dockerfile instructions, CMD vs ENTRYPOINT, layer caching, and building images the right way.
 
 ---
 
