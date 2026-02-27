@@ -39,6 +39,10 @@ Welcome to my personal laboratory and documentation repository for the **Contain
 * [**Unit 1: Dockerfile & Automation**](./theory/Unit1/Docker%20tutorial) - Dockerfile instructions, CMD vs ENTRYPOINT, layer caching, and building images the right way.
 * [**Unit 1: Docker Engine API (Part A)**](./theory/Unit1/Docker%20API%20Part%20A) - REST API fundamentals, CLI-to-API mapping, and hands-on `curl` commands.
 * [**Unit 1: Docker Engine API (Part B)**](./theory/Unit1/Docker%20API%20Part%20B) - TCP exposure, TLS security, cross-platform differences, and daemon restart strategies.
+* [**Unit 1: Multistage Dockerfiles**](./theory/Unit1/Docker%20Multistage) - Separating build from runtime, scratch/distroless images, and production-grade pipelines.
+* [**Unit 1: Attaching to Stopped Containers**](./theory/Unit1/Attach%20to%20stopped%20containers) - Why containers exit, PID 1 lifecycle, and four methods to reconnect.
+* [**Unit 1: Data Management in Docker**](./theory/Unit1/Data%20Management%20in%20Docker) - Volumes, bind mounts, tmpfs, `-v` vs `--mount`, and hands-on persistence labs.
+* [**Unit 1: Docker Networking**](./theory/Unit1/Docker%20Networking) - Bridge, host, overlay, macvlan drivers, port publishing, DNS, and network security.
 
 ---
 
@@ -47,16 +51,25 @@ Welcome to my personal laboratory and documentation repository for the **Contain
 ```text
 Containerization-and-Devops/
 ├── lab/
-│   ├── EXP-1/          # Experiment 1: VMs vs Containers
-│   ├── EXP-2/          # Experiment 2: Docker Lifecycle
-│   ├── EXP-3/          # Experiment 3: NGINX Base Images
-│   └── EXP-4/          # Experiment 4: Docker Essentials
+│   ├── EXP-1/                      # VMs vs Containers (Vagrant/Docker)
+│   ├── EXP-2/                      # Docker Lifecycle & Basic Commands
+│   ├── EXP-3/                      # NGINX Base Image Comparisons
+│   └── EXP-4/                      # Docker Essentials & Dockerfiles
 ├── theory/
 │   └── Unit1/          
-│       ├── index.md    # Virtualization → Containers
-│       └── Docker Basic.md # Hands-on Commands
-└── README.md           # You are here
+│       ├── index.md                # Virtualization → Containers
+│       ├── Docker Basic.md         # Essential CLI & Flags
+│       ├── Docker Preserve.md      # Commit, Save, Load, Export
+│       ├── Docker tutorial.md      # Dockerfile Instructions & Optimization
+│       ├── Docker API Part A.md    # Engine API Fundamentals
+│       ├── Docker API Part B.md    # API Security & Cross-Platform
+│       ├── Docker Multistage.md    # Production-grade Pipelines
+│       ├── Attach to stopped...md  # PID 1 Lifecycle & Debugging
+│       ├── Data Management...md    # Volumes, Bind Mounts, tmpfs
+│       └── Docker Networking.md    # Bridge, Overlay, DNS, Security
+└── README.md                       # Main Course Index
 ```
+
 
 ## 🚀 How to Run
 
