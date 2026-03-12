@@ -30,6 +30,7 @@ Welcome to my personal laboratory and documentation repository for the **Contain
 * [**Exp 2: Docker Lifecycle**](./lab/EXP-2/) - Installation, Image Management, and Basic Commands.
 * [**Exp 3: NGINX Base Image Comparison**](./lab/EXP-3/) - Deploying NGINX using Official, Ubuntu, and Alpine images to compare size, layers, and build performance.
 * [**Exp 4: Docker Essentials**](./lab/EXP-4/) - Dockerfile, .dockerignore, image tagging, multi-stage builds, and publishing to Docker Hub.
+* [**Exp 5: Volumes, Env Vars, Monitoring & Networks**](./lab/EXP-5/) - Persistent storage, runtime configuration, observability, and multi-container networking.
 
 ### 📘 Theory Units
 
@@ -54,7 +55,8 @@ Containerization-and-Devops/
 │   ├── EXP-1/                      # VMs vs Containers (Vagrant/Docker)
 │   ├── EXP-2/                      # Docker Lifecycle & Basic Commands
 │   ├── EXP-3/                      # NGINX Base Image Comparisons
-│   └── EXP-4/                      # Docker Essentials & Dockerfiles
+│   ├── EXP-4/                      # Docker Essentials & Dockerfiles
+│   └── EXP-5/                      # Volumes, Env Vars, Monitoring & Networks
 ├── theory/
 │   └── Unit1/          
 │       ├── index.md                # Virtualization → Containers
