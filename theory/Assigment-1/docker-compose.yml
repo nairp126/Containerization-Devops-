@@ -1,0 +1,56 @@
+services:
+  db:
+    build:
+      context: ./database
+      dockerfile: Dockerfile
+    container_name: postgres_container
+    restart: always
+    environment:
+      POSTGRES_DB: appdb
+      POSTGRES_USER: appuser
+      POSTGRES_PASSWORD: apppassword
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    networks:
+      macvlan_net:
+        ipv4_address: 192.168.192.11
+      bridge_net: {}
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U appuser -d appdb"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: fastapi_container
+    restart: always
+    ports:
+      - "8001:8000"
+    environment:
+      DB_HOST: db
+      DB_NAME: appdb
+      DB_USER: appuser
+      DB_PASS: apppassword
+    networks:
+      bridge_net: {}
+    depends_on:
+      db:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://localhost:8000/health || exit 1"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+
+volumes:
+  pgdata:
+    name: pgdata
+
+networks:
+  macvlan_net:
+    external: true
+  bridge_net:
+    driver: bridge

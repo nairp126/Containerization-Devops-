@@ -45,6 +45,10 @@ Welcome to my personal laboratory and documentation repository for the **Contain
 * [**Unit 1: Data Management in Docker**](./theory/Unit1/Data%20Management%20in%20Docker) - Volumes, bind mounts, tmpfs, `-v` vs `--mount`, and hands-on persistence labs.
 * [**Unit 1: Docker Networking**](./theory/Unit1/Docker%20Networking) - Bridge, host, overlay, macvlan drivers, port publishing, DNS, and network security.
 
+### 📝 Assignments
+
+* [**Assignment 1: Containerized Web App**](./theory/Assigment-1/Report.md) - Deploying a FastAPI & PostgreSQL stack with static Macvlan networking and Docker Compose optimization.
+
 ---
 
 ## 📂 Repository Structure
@@ -58,17 +62,20 @@ Containerization-and-Devops/
 │   ├── EXP-4/                      # Docker Essentials & Dockerfiles
 │   └── EXP-5/                      # Volumes, Env Vars, Monitoring & Networks
 ├── theory/
-│   └── Unit1/          
-│       ├── index.md                # Virtualization → Containers
-│       ├── Docker Basic.md         # Essential CLI & Flags
-│       ├── Docker Preserve.md      # Commit, Save, Load, Export
-│       ├── Docker tutorial.md      # Dockerfile Instructions & Optimization
-│       ├── Docker API Part A.md    # Engine API Fundamentals
-│       ├── Docker API Part B.md    # API Security & Cross-Platform
-│       ├── Docker Multistage.md    # Production-grade Pipelines
-│       ├── Attach to stopped...md  # PID 1 Lifecycle & Debugging
-│       ├── Data Management...md    # Volumes, Bind Mounts, tmpfs
-│       └── Docker Networking.md    # Bridge, Overlay, DNS, Security
+│   ├── Unit1/          
+│   │   ├── index.md                # Virtualization → Containers
+│   │   ├── Docker Basic.md         # Essential CLI & Flags
+│   │   ├── Docker Preserve.md      # Commit, Save, Load, Export
+│   │   ├── Docker tutorial.md      # Dockerfile Instructions & Optimization
+│   │   ├── Docker API Part A.md    # Engine API Fundamentals
+│   │   ├── Docker API Part B.md    # API Security & Cross-Platform
+│   │   ├── Docker Multistage.md    # Production-grade Pipelines
+│   │   ├── Attach to stopped...md  # PID 1 Lifecycle & Debugging
+│   │   ├── Data Management...md    # Volumes, Bind Mounts, tmpfs
+│   │   └── Docker Networking.md    # Bridge, Overlay, DNS, Security
+│   └── Assigment-1/
+│       ├── Report.md               # Assignment 1 Report
+│       └── docker-compose.yml      # Orchestration Config
 └── README.md                       # Main Course Index
 ```
 
