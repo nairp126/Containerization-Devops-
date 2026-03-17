@@ -44,6 +44,9 @@ Welcome to my personal laboratory and documentation repository for the **Contain
 * [**Unit 1: Attaching to Stopped Containers**](./theory/Unit1/Attach%20to%20stopped%20containers) - Why containers exit, PID 1 lifecycle, and four methods to reconnect.
 * [**Unit 1: Data Management in Docker**](./theory/Unit1/Data%20Management%20in%20Docker) - Volumes, bind mounts, tmpfs, `-v` vs `--mount`, and hands-on persistence labs.
 * [**Unit 1: Docker Networking**](./theory/Unit1/Docker%20Networking) - Bridge, host, overlay, macvlan drivers, port publishing, DNS, and network security.
+* [**Unit 1: Docker Compose vs Docker Run**](./theory/Unit1/Docker-Compose-vs-Docker-Run) - Declarative vs imperative orchestration, flag-to-YAML mapping, and multi-container dependency management.
+* [**Unit 1: Scaling WordPress with Docker Compose**](./theory/Unit1/Scaling-WordPress-with-Docker-Compose) - Horizontal scaling, stateless vs stateful services, and NGINX reverse proxy load balancing.
+* [**Unit 1: Docker Swarm**](./theory/Unit1/Docker-Swarm) - Cluster-level orchestration, services vs tasks, routing mesh, rolling updates, node management, and `docker run` vs `docker service` comparison.
 
 ### 📝 Assignments
 
@@ -72,13 +75,15 @@ Containerization-and-Devops/
 │   │   ├── Docker Multistage.md    # Production-grade Pipelines
 │   │   ├── Attach to stopped...md  # PID 1 Lifecycle & Debugging
 │   │   ├── Data Management...md    # Volumes, Bind Mounts, tmpfs
-│   │   └── Docker Networking.md    # Bridge, Overlay, DNS, Security
+│   │   ├── Docker Networking.md    # Bridge, Overlay, DNS, Security
+│   │   ├── Docker Compose vs...md  # Declarative Orchestration
+│   │   ├── Scaling WordPress...md  # Horizontal Scaling & Proxies
+│   │   └── Docker Swarm.md         # Cluster-level Orchestration
 │   └── Assigment-1/
 │       ├── Report.md               # Assignment 1 Report
 │       └── docker-compose.yml      # Orchestration Config
 └── README.md                       # Main Course Index
 ```
-
 
 ## 🚀 How to Run
 
@@ -99,4 +104,5 @@ To explore the contents of this repository locally:
 3. **View Notes**: Open the markdown files in your favorite editor (VS Code, Obsidian) or view them directly on GitHub.
 
 ---
-*Created and Maintained by Pranav R Nair*
+
+> Created and Maintained by Pranav R Nair
