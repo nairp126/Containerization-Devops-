@@ -48,6 +48,8 @@ Welcome to my personal laboratory and documentation repository for the **Contain
 * [**Unit 1: Docker Compose vs Docker Run**](./theory/Unit1/Docker-Compose-vs-Docker-Run) - Declarative vs imperative orchestration, flag-to-YAML mapping, and multi-container dependency management.
 * [**Unit 1: Scaling WordPress with Docker Compose**](./theory/Unit1/Scaling-WordPress-with-Docker-Compose) - Horizontal scaling, stateless vs stateful services, and NGINX reverse proxy load balancing.
 * [**Unit 1: Docker Swarm**](./theory/Unit1/Docker-Swarm) - Cluster-level orchestration, services vs tasks, routing mesh, rolling updates, node management, and `docker run` vs `docker service` comparison.
+* [**Unit 2: Kubernetes Architecture & Core Concepts (Part 1)**](./theory/Unit2/Introduction-to-Kubernetes-Part-1) - Architecture deep dive (Control Plane, Worker Nodes), workload controllers (Deployment/StatefulSet/DaemonSet), networking (Services/Ingress), storage (PV/PVC), RBAC security, and CRI lifecycle.
+* [**Unit 2: kubectl, kubeconfig & Local K8s Tools (Part 2)**](./theory/Unit2/Introduction-to-Kubernetes-Part-2) - Local K8s tools (Minikube/k3d/kind), kubectl commands, kubeconfig deep dive, and multi-cluster management.
 
 ### 📝 Assignments
 
@@ -81,6 +83,9 @@ Containerization-and-Devops/
 │   │   ├── Docker Compose vs...md  # Declarative Orchestration
 │   │   ├── Scaling WordPress...md  # Horizontal Scaling & Proxies
 │   │   └── Docker Swarm.md         # Cluster-level Orchestration
+│   ├── Unit2/
+│   │   ├── Introduction to K...Part-1.md  # K8s Architecture & Core Concepts
+│   │   └── Introduction to K...Part-2.md  # kubectl, kubeconfig & Local Tools
 │   └── Assigment-1/
 │       ├── Report.md               # Assignment 1 Report
 │       └── docker-compose.yml      # Orchestration Config
