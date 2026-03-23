@@ -50,6 +50,12 @@ Welcome to my personal laboratory and documentation repository for the **Contain
 * [**Unit 1: Docker Swarm**](./theory/Unit1/Docker-Swarm) - Cluster-level orchestration, services vs tasks, routing mesh, rolling updates, node management, and `docker run` vs `docker service` comparison.
 * [**Unit 2: Kubernetes Architecture & Core Concepts (Part 1)**](./theory/Unit2/Introduction-to-Kubernetes-Part-1) - Architecture deep dive (Control Plane, Worker Nodes), workload controllers (Deployment/StatefulSet/DaemonSet), networking (Services/Ingress), storage (PV/PVC), RBAC security, and CRI lifecycle.
 * [**Unit 2: kubectl, kubeconfig & Local K8s Tools (Part 2)**](./theory/Unit2/Introduction-to-Kubernetes-Part-2) - Local K8s tools (Minikube/k3d/kind), kubectl commands, kubeconfig deep dive, and multi-cluster management.
+* [**Unit 2: Hands-on Lab — Deploy & Manage a Web App**](./theory/Unit2/Hands-on-Task) - 13-step Apache httpd lab covering bare pods vs Deployments, scaling, debugging (ImagePullBackOff), exec into containers, and self-healing.
+* [**Unit 2: Kubernetes Deployment with YAML**](./theory/Unit2/Kubernetes-Deployment-with-YAML) - Imperative vs declarative, YAML manifest anatomy (4-field structure, label-selector link), production-ready examples with probes and resource limits, and the CLI-to-YAML bridge exercise.
+
+### 🧩 Misc Topics
+
+* [**Misc: Docker Web UIs & Socket Security**](./theory/Misc/Docker-Web-UI) - Using Portainer/Komodo, how `docker.sock` works, full privilege escalation risks, and 6 security mitigation strategies.
 
 ### 📝 Assignments
 
@@ -85,7 +91,11 @@ Containerization-and-Devops/
 │   │   └── Docker Swarm.md         # Cluster-level Orchestration
 │   ├── Unit2/
 │   │   ├── Introduction to K...Part-1.md  # K8s Architecture & Core Concepts
-│   │   └── Introduction to K...Part-2.md  # kubectl, kubeconfig & Local Tools
+│   │   ├── Introduction to K...Part-2.md  # kubectl, kubeconfig & Local Tools
+│   │   ├── Hands-on Task.md              # Deploy & Manage Apache httpd Lab
+│   │   └── KUBERNETIS DEPLOY...YAML.md   # Declarative YAML Deployments
+│   ├── Misc/
+│   │   └── Docker Web UI.md              # Portainer, Komodo & Socket Security
 │   └── Assigment-1/
 │       ├── Report.md               # Assignment 1 Report
 │       └── docker-compose.yml      # Orchestration Config
