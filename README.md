@@ -32,6 +32,7 @@ Welcome to my personal laboratory and documentation repository for the **Contain
 * [**Exp 4: Docker Essentials**](./lab/EXP-4/) - Dockerfile, .dockerignore, image tagging, multi-stage builds, and publishing to Docker Hub.
 * [**Exp 5: Volumes, Env Vars, Monitoring & Networks**](./lab/EXP-5/) - Persistent storage, runtime configuration, observability, and multi-container networking.
 * [**Exp 6: Docker Run vs Docker Compose**](./lab/EXP-6/) - Side-by-side comparison of imperative and declarative container management across 6 tasks including multi-stage builds and resource limits.
+* [**Exp 7: CI/CD Pipeline using Jenkins, GitHub & Docker Hub**](./lab/EXP-7/) - End-to-end pipeline: Jenkinsfile as Code, Docker-outside-of-Docker, withCredentials for secure auth, ngrok for localhost webhooks, and automated image pushes.
 
 ### 📘 Theory Units
 
@@ -56,6 +57,7 @@ Welcome to my personal laboratory and documentation repository for the **Contain
 ### 🧩 Misc Topics
 
 * [**Misc: Docker Web UIs & Socket Security**](./theory/Misc/Docker-Web-UI) - Using Portainer/Komodo, how `docker.sock` works, full privilege escalation risks, and 6 security mitigation strategies.
+* [**Misc: Jenkins — Complete Installation, Configuration & Pipeline Guide**](./theory/Misc/Jenkins-Complete-Guide) - Installation (native/Docker/WSL 2), Nginx reverse proxy, SSL/HTTPS with Let's Encrypt, first pipeline, service management, and troubleshooting.
 
 ### 📝 Assignments
 
@@ -73,7 +75,8 @@ Containerization-and-Devops/
 │   ├── EXP-3/                      # NGINX Base Image Comparisons
 │   ├── EXP-4/                      # Docker Essentials & Dockerfiles
 │   ├── EXP-5/                      # Volumes, Env Vars, Monitoring & Networks
-│   └── EXP-6/                      # Docker Run vs Docker Compose Comparison
+│   ├── EXP-6/                      # Docker Run vs Docker Compose Comparison
+│   └── EXP-7/                      # CI/CD Pipeline (Jenkins + GitHub + Docker Hub)
 ├── theory/
 │   ├── Unit1/          
 │   │   ├── index.md                # Virtualization → Containers
@@ -96,6 +99,7 @@ Containerization-and-Devops/
 │   │   └── KUBERNETIS DEPLOY...YAML.md   # Declarative YAML Deployments
 │   ├── Misc/
 │   │   └── Docker Web UI.md              # Portainer, Komodo & Socket Security
+│   │   └── Jenkins complete guide.md     # Full Jenkins Setup, Pipelines & SSL
 │   └── Assigment-1/
 │       ├── Report.md               # Assignment 1 Report
 │       └── docker-compose.yml      # Orchestration Config
