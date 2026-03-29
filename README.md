@@ -53,11 +53,15 @@ Welcome to my personal laboratory and documentation repository for the **Contain
 * [**Unit 2: kubectl, kubeconfig & Local K8s Tools (Part 2)**](./theory/Unit2/Introduction-to-Kubernetes-Part-2) - Local K8s tools (Minikube/k3d/kind), kubectl commands, kubeconfig deep dive, and multi-cluster management.
 * [**Unit 2: Hands-on Lab — Deploy & Manage a Web App**](./theory/Unit2/Hands-on-Task) - 13-step Apache httpd lab covering bare pods vs Deployments, scaling, debugging (ImagePullBackOff), exec into containers, and self-healing.
 * [**Unit 2: Kubernetes Deployment with YAML**](./theory/Unit2/Kubernetes-Deployment-with-YAML) - Imperative vs declarative, YAML manifest anatomy (4-field structure, label-selector link), production-ready examples with probes and resource limits, and the CLI-to-YAML bridge exercise.
+* [**Unit 2: Managing Applications with kubectl**](./theory/Unit2/Managing-Applications-with-kubectl) - Docker → kubectl run → Deployment progression, scaling, rolling updates, rollback, debugging, and declarative YAML management.
+* [**Unit 2: Ingress, kubeadm & kubelet**](./theory/Unit2/Ingress-kubeadm-kubelet) - HTTP/HTTPS routing with Ingress, cluster bootstrapping with kubeadm, node agent kubelet, hands-on Ingress lab, and complete architecture overview.
+* [**Unit 2: Minikube Clusters & AWS EKS**](./theory/Unit2/Minikube-cluster-and-AWS-EKS) - Local Minikube clusters, AWS EKS managed K8s, eksctl, Fargate, Cluster Autoscaler, ECR, and dev-to-prod workflow.
 
 ### 🧩 Misc Topics
 
 * [**Misc: Docker Web UIs & Socket Security**](./theory/Misc/Docker-Web-UI) - Using Portainer/Komodo, how `docker.sock` works, full privilege escalation risks, and 6 security mitigation strategies.
 * [**Misc: Jenkins — Complete Installation, Configuration & Pipeline Guide**](./theory/Misc/Jenkins-Complete-Guide) - Installation (native/Docker/WSL 2), Nginx reverse proxy, SSL/HTTPS with Let's Encrypt, first pipeline, service management, and troubleshooting.
+* [**Misc: Vim & tmux — Essential Terminal Tools for DevOps**](./theory/Misc/Vim-and-TMUX) - Vim modes and commands, tmux session persistence, pane/window management, .vimrc/.tmux.conf customization, and DevOps workflows.
 
 ### 📝 Assignments
 
@@ -96,10 +100,14 @@ Containerization-and-Devops/
 │   │   ├── Introduction to K...Part-1.md  # K8s Architecture & Core Concepts
 │   │   ├── Introduction to K...Part-2.md  # kubectl, kubeconfig & Local Tools
 │   │   ├── Hands-on Task.md              # Deploy & Manage Apache httpd Lab
-│   │   └── KUBERNETIS DEPLOY...YAML.md   # Declarative YAML Deployments
+│   │   ├── KUBERNETIS DEPLOY...YAML.md   # Declarative YAML Deployments
+│   │   ├── Managing Applicat...kubectl.md # kubectl Application Management
+│   │   ├── Ingress.md                    # Ingress, kubeadm & kubelet
+│   │   └── Minikube cluster and...EKS.md # Minikube & AWS EKS
 │   ├── Misc/
 │   │   └── Docker Web UI.md              # Portainer, Komodo & Socket Security
-│   │   └── Jenkins complete guide.md     # Full Jenkins Setup, Pipelines & SSL
+│   │   ├── Jenkins complete guide.md     # Full Jenkins Setup, Pipelines & SSL
+│   │   └── Vim & TMUX.md                # Vim Modes, tmux Sessions & DevOps Workflows
 │   └── Assigment-1/
 │       ├── Report.md               # Assignment 1 Report
 │       └── docker-compose.yml      # Orchestration Config
