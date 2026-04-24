@@ -80,7 +80,9 @@ Containerization-and-Devops/
 │   ├── EXP-4/                      # Docker Essentials & Dockerfiles
 │   ├── EXP-5/                      # Volumes, Env Vars, Monitoring & Networks
 │   ├── EXP-6/                      # Docker Run vs Docker Compose Comparison
-│   └── EXP-7/                      # CI/CD Pipeline (Jenkins + GitHub + Docker Hub)
+│   ├── EXP-7/                      # CI/CD Pipeline (Jenkins + GitHub + Docker Hub)
+│   ├── EXP-9/                      # Ansible — Agentless Config Management with Docker
+│   └── EXP-10/                     # SonarQube — Static Code Analysis with Docker
 ├── theory/
 │   ├── Unit1/          
 │   │   ├── index.md                # Virtualization → Containers
