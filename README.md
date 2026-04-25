@@ -82,7 +82,9 @@ Containerization-and-Devops/
 │   ├── EXP-6/                      # Docker Run vs Docker Compose Comparison
 │   ├── EXP-7/                      # CI/CD Pipeline (Jenkins + GitHub + Docker Hub)
 │   ├── EXP-9/                      # Ansible — Agentless Config Management with Docker
-│   └── EXP-10/                     # SonarQube — Static Code Analysis with Docker
+│   ├── EXP-10/                     # SonarQube — Static Code Analysis with Docker
+│   ├── EXP-11/                     # Docker Swarm — Container Orchestration
+│   └── EXP-12/                     # Kubernetes — Container Orchestration with k3d
 ├── theory/
 │   ├── Unit1/          
 │   │   ├── index.md                # Virtualization → Containers
