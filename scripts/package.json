@@ -1,0 +1,12 @@
+{
+  "name": "lab-report-generator",
+  "version": "1.0.0",
+  "description": "Generates a single PDF lab report from all experiment markdown files",
+  "scripts": {
+    "build": "node generate-report.js"
+  },
+  "dependencies": {
+    "marked": "^15.0.0",
+    "puppeteer": "^24.0.0"
+  }
+}

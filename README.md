@@ -33,6 +33,10 @@ Welcome to my personal laboratory and documentation repository for the **Contain
 * [**Exp 5: Volumes, Env Vars, Monitoring & Networks**](./lab/EXP-5/) - Persistent storage, runtime configuration, observability, and multi-container networking.
 * [**Exp 6: Docker Run vs Docker Compose**](./lab/EXP-6/) - Side-by-side comparison of imperative and declarative container management across 6 tasks including multi-stage builds and resource limits.
 * [**Exp 7: CI/CD Pipeline using Jenkins, GitHub & Docker Hub**](./lab/EXP-7/) - End-to-end pipeline: Jenkinsfile as Code, Docker-outside-of-Docker, withCredentials for secure auth, ngrok for localhost webhooks, and automated image pushes.
+* [**Exp 9: Ansible — Agentless Configuration Management**](./lab/EXP-9/) - Multi-container Ansible lab with Dockerized control/managed nodes, automated SSH key generation, dynamic inventory, and idempotent playbook execution.
+* [**Exp 10: SonarQube — Static Code Analysis with Docker**](./lab/EXP-10/) - SonarQube server via Docker Compose, Maven scanner integration, intentional Java bugs/vulnerabilities, REST API queries, and secure token management.
+* [**Exp 11: Docker Swarm — Container Orchestration**](./lab/EXP-11/) - Transitioning from Compose to Swarm: stack deploy, service scaling, ingress mesh load balancing, self-healing (exit code 137), and WSL2 networking fixes.
+* [**Exp 12: Kubernetes — Container Orchestration with k3d**](./lab/EXP-12/) - Local Kubernetes cluster with k3d, WordPress + MySQL Deployments, NodePort/ClusterIP Services, scaling, self-healing, and Swarm vs K8s comparison.
 
 ### 📘 Theory Units
 
