@@ -60,6 +60,9 @@ Welcome to my personal laboratory and documentation repository for the **Contain
 * [**Unit 2: Managing Applications with kubectl**](./theory/Unit2/Managing-Applications-with-kubectl) - Docker → kubectl run → Deployment progression, scaling, rolling updates, rollback, debugging, and declarative YAML management.
 * [**Unit 2: Ingress, kubeadm & kubelet**](./theory/Unit2/Ingress-kubeadm-kubelet) - HTTP/HTTPS routing with Ingress, cluster bootstrapping with kubeadm, node agent kubelet, hands-on Ingress lab, and complete architecture overview.
 * [**Unit 2: Minikube Clusters & AWS EKS**](./theory/Unit2/Minikube-cluster-and-AWS-EKS) - Local Minikube clusters, AWS EKS managed K8s, eksctl, Fargate, Cluster Autoscaler, ECR, and dev-to-prod workflow.
+* [**Unit 4: Git & Version Control**](./theory/Unit4/Git-Basics) - CVCS vs DVCS, Git internals (snapshots, staging area, three areas), SSH/GPG setup, branching, merging, conflicts, stash, rebase, submodules, tagging, undoing changes, and Git in DevOps pipelines.
+* [**Unit 4: GitHub Actions — CI/CD Automation**](./theory/Unit4/Github-Actions) - Workflow YAML anatomy, event triggers (push/PR/cron/manual), matrix builds for parallel testing, secrets management, Docker integration, marketplace actions, job dependencies, and GitHub Actions vs Jenkins comparison.
+* [**Unit 4: Docker + GitHub Actions — Automated Container Delivery**](./theory/Unit4/Docker-With-Github-Actions) - FastAPI containerization, Dockerfile breakdown, GitHub Secrets for Docker Hub auth, CI/CD workflow for automated image builds, verification pipeline, and Jenkins vs GitHub Actions comparison.
 
 ### 🧩 Misc Topics
 
@@ -112,6 +115,10 @@ Containerization-and-Devops/
 │   │   ├── Managing Applicat...kubectl.md # kubectl Application Management
 │   │   ├── Ingress.md                    # Ingress, kubeadm & kubelet
 │   │   └── Minikube cluster and...EKS.md # Minikube & AWS EKS
+│   ├── Unit4/
+│   │   ├── Git Basics.md               # Git & Version Control (CVCS/DVCS, Branching, Merging)
+│   │   ├── Github Actions.md           # GitHub Actions CI/CD (Workflows, Matrix, Docker)
+│   │   └── Docker With Github Actions.md # FastAPI + Docker + GitHub Actions CD Pipeline
 │   ├── Misc/
 │   │   └── Docker Web UI.md              # Portainer, Komodo & Socket Security
 │   │   ├── Jenkins complete guide.md     # Full Jenkins Setup, Pipelines & SSL
