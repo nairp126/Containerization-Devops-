@@ -66,6 +66,7 @@ Welcome to my personal laboratory and documentation repository for the **Contain
 * [**Unit 4: GitHub Actions Test Automation**](./theory/Unit4/Github-Actions-Automations) - Backend API test automation with FastAPI, pytest parameterized testing, CI workflow for automated test execution, testing pyramid, edge cases, mocking, and real-world expansion strategies.
 * [**Unit 4: CI/CD Pipeline — Theory to Production**](./theory/Unit4/CI-CD-Pipeline) - CI/CD definitions (CI vs Delivery vs Deployment), Git Flow branching, SonarQube quality gates, Jenkinsfile (Pipeline as Code), Jenkins master-agent architecture, agent types, credential management, and end-to-end walkthrough.
 * [**Unit 4: Ansible — Agentless Configuration Management**](./theory/Unit4/Ansible) - Agentless architecture (SSH), inventory files, YAML playbooks, idempotency, modules, ad-hoc commands, Docker-based hands-on lab, variables/facts/handlers, Vault encryption, Roles, Galaxy, and Ansible vs Chef/Puppet comparison.
+* [**Unit 4: Monitoring & Logging — Prometheus, Grafana & ELK**](./theory/Unit4/Monitoring-and-Logging) - Metrics vs logs, Prometheus pull model, Node Exporter, PromQL, Grafana dashboards, ELK Stack (Elasticsearch + Logstash + Kibana), Filebeat, Loki, Docker Compose hands-on for both stacks, and stack comparison.
 
 ### 🧩 Misc Topics
 
@@ -124,7 +125,8 @@ Containerization-and-Devops/
 │   │   ├── Docker With Github Actions.md # FastAPI + Docker + GitHub Actions CD Pipeline
 │   │   ├── Github Actions Automations.md # API Test Automation with pytest + CI
 │   │   ├── CI CD Pipeline.md            # Full CI/CD Theory, Git Flow, Jenkins Architecture
-│   │   └── Ansible.md                   # Agentless Config Management, Playbooks, Vault
+│   │   ├── Ansible.md                   # Agentless Config Management, Playbooks, Vault
+│   │   └── Monitoring and Logging.md    # Prometheus, Grafana, ELK Stack, Loki
 │   ├── Misc/
 │   │   └── Docker Web UI.md              # Portainer, Komodo & Socket Security
 │   │   ├── Jenkins complete guide.md     # Full Jenkins Setup, Pipelines & SSL
