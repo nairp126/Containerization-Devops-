@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Experiment 9: Ansible — Agentless Configuration Management with Docker"
-permalink: /lab/exp-9
+permalink: /lab/EXP-9/
 ---
 
 ## Objective

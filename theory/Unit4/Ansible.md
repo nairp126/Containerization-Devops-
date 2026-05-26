@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ansible — Agentless Configuration Management at Scale"
-permalink: /theory/unit4/ansible
+permalink: /theory/Unit4/Ansible
 ---
 
 ## The Hotel Chain Manager Analogy

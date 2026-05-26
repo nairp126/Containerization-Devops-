@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "GitHub Actions Test Automation — CI for Backend APIs"
-permalink: /theory/unit4/github-actions-automations
+permalink: /theory/Unit4/Github-Actions-Automations
 ---
 
 ## The Quality Control Line Analogy

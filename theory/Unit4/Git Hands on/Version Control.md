@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Version Control — Why It Exists, How It Evolved, and Setting Up Git"
-permalink: /theory/unit4/version-control
+permalink: /theory/Unit4/Version-Control
 ---
 
 ## The Film Editing Room Analogy

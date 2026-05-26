@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Monitoring with Prometheus & Grafana — From Metrics Collection to Visual Dashboards"
-permalink: /theory/unit4/monitoring-with-prometheus-and-grafana
+permalink: /theory/Unit4/Monitoring-With-Prometheus-And-Grafana
 ---
 
 ## The Weather Station Analogy

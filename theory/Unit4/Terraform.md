@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Terraform — Infrastructure as Code for Cloud Provisioning"
-permalink: /theory/unit4/terraform
+permalink: /theory/Unit4/Terraform
 ---
 
 ## The Blueprint Analogy

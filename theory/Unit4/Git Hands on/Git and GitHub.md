@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Git & GitHub — Authentication, Commands, and Daily Workflows"
-permalink: /theory/unit4/git-and-github
+permalink: /theory/Unit4/Git-and-GitHub
 ---
 
 ## The Post Office Analogy

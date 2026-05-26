@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Git & Version Control — From Theory to Hands-On"
-permalink: /theory/unit4/git-basics
+permalink: /theory/Unit4/Git-Basics
 ---
 
 ## The Library Analogy — Understanding Version Control

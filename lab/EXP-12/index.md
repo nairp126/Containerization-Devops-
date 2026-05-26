@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Experiment 12: Container Orchestration with Kubernetes (k3d)"
-permalink: /lab/exp-12
+permalink: /lab/EXP-12/
 ---
 
 ## Objective

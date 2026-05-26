@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "CI/CD Pipeline — From Code Push to Production Deployment"
-permalink: /theory/unit4/ci-cd-pipeline
+permalink: /theory/Unit4/CI-CD-Pipeline
 ---
 
 ## The Newspaper Printing Press Analogy

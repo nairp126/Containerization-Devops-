@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "GitHub Actions — CI/CD Automation from Your Repository"
-permalink: /theory/unit4/github-actions
+permalink: /theory/Unit4/Github-Actions
 ---
 
 ## The Assembly Robot Analogy — Understanding GitHub Actions

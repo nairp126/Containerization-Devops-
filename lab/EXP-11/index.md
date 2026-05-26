@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Experiment 11: Container Orchestration with Docker Compose & Docker Swarm"
-permalink: /lab/exp-11
+permalink: /lab/EXP-11/
 ---
 
 ## Objective

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Experiment 10: SonarQube — Static Code Analysis with Docker"
-permalink: /lab/exp-10
+permalink: /lab/EXP-10/
 ---
 
 ## Objective

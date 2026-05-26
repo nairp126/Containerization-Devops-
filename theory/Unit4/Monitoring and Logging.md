@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Monitoring & Logging — Prometheus, Grafana, and the ELK Stack"
-permalink: /theory/unit4/monitoring-and-logging
+permalink: /theory/Unit4/Monitoring-and-Logging
 ---
 
 ## The Hospital Monitoring Analogy

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Experiment 7: CI/CD Pipeline using Jenkins, GitHub & Docker Hub"
-permalink: /lab/exp-7/
+permalink: /lab/EXP-7/
 ---
 
 ## 🎯 Objective
