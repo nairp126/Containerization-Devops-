@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Experiment 7: CI/CD Pipeline using Jenkins, GitHub & Docker Hub"
 permalink: /lab/EXP-7/
 ---

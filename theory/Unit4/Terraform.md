@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Terraform — Infrastructure as Code for Cloud Provisioning"
 permalink: /theory/Unit4/Terraform
 ---

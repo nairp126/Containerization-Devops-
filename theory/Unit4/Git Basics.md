@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Git & Version Control — From Theory to Hands-On"
 permalink: /theory/Unit4/Git-Basics
 ---

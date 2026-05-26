@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Experiment 9: Ansible — Agentless Configuration Management with Docker"
 permalink: /lab/EXP-9/
 ---

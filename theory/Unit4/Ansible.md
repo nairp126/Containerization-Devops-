@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Ansible — Agentless Configuration Management at Scale"
 permalink: /theory/Unit4/Ansible
 ---

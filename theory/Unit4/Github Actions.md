@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "GitHub Actions — CI/CD Automation from Your Repository"
 permalink: /theory/Unit4/Github-Actions
 ---

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "CI/CD Pipeline — From Code Push to Production Deployment"
 permalink: /theory/Unit4/CI-CD-Pipeline
 ---

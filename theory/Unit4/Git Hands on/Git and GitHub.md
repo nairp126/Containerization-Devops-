@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Git & GitHub — Authentication, Commands, and Daily Workflows"
 permalink: /theory/Unit4/Git-and-GitHub
 ---

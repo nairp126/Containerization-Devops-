@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Version Control — Why It Exists, How It Evolved, and Setting Up Git"
 permalink: /theory/Unit4/Version-Control
 ---

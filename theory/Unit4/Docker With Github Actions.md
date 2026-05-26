@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Docker + GitHub Actions — Automated Container Delivery Pipeline"
 permalink: /theory/Unit4/Docker-With-Github-Actions
 ---

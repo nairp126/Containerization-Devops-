@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Experiment 10: SonarQube — Static Code Analysis with Docker"
 permalink: /lab/EXP-10/
 ---

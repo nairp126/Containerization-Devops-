@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Experiment 11: Container Orchestration with Docker Compose & Docker Swarm"
 permalink: /lab/EXP-11/
 ---

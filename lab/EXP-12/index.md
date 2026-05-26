@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Experiment 12: Container Orchestration with Kubernetes (k3d)"
 permalink: /lab/EXP-12/
 ---

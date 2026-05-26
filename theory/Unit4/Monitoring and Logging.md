@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Monitoring & Logging — Prometheus, Grafana, and the ELK Stack"
 permalink: /theory/Unit4/Monitoring-and-Logging
 ---

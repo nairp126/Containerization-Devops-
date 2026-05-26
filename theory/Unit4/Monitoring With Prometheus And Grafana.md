@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Monitoring with Prometheus & Grafana — From Metrics Collection to Visual Dashboards"
 permalink: /theory/Unit4/Monitoring-With-Prometheus-And-Grafana
 ---

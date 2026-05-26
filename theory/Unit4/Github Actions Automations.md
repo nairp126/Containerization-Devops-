@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "GitHub Actions Test Automation — CI for Backend APIs"
 permalink: /theory/Unit4/Github-Actions-Automations
 ---
