@@ -63,6 +63,7 @@ Welcome to my personal laboratory and documentation repository for the **Contain
 * [**Unit 4: Git & Version Control**](./theory/Unit4/Git-Basics.md) - CVCS vs DVCS, Git internals (snapshots, staging area, three areas), SSH/GPG setup, branching, merging, conflicts, stash, rebase, submodules, tagging, undoing changes, and Git in DevOps pipelines.
 * [**Unit 4: Version Control Essentials (Git)**](./theory/Unit4/Git-Hands-on/Version-Control.md) - Local vs Centralized vs Distributed VCS, Git architecture (snapshots, staging area, three areas), CLI setups, commits, and daily configuration.
 * [**Unit 4: Git and GitHub Hands-On**](./theory/Unit4/Git-Hands-on/Git-and-GitHub.md) - SSH key and GPG signing setup, GitHub authentication, branch management, merge conflict resolution, stashing, rebasing, and release tagging.
+* [**Unit 4: Git Branch, Merge & Rebase**](./theory/Unit4/Git-Hands-on/Git-Branch-Merge-and-Rebase.md) - Branch lifecycle, fast-forward vs 3-way merge, rebase internals, interactive rebase (squash/fixup/reword), merge conflict resolution, the Golden Rule of Rebasing, Git Flow vs GitHub Flow vs Trunk-Based Development.
 * [**Unit 4: GitHub Actions — CI/CD Automation**](./theory/Unit4/Github-Actions.md) - Workflow YAML anatomy, event triggers (push/PR/cron/manual), matrix builds for parallel testing, secrets management, Docker integration, marketplace actions, job dependencies, and GitHub Actions vs Jenkins comparison.
 * [**Unit 4: Docker + GitHub Actions — Automated Container Delivery**](./theory/Unit4/Docker-With-Github-Actions.md) - FastAPI containerization, Dockerfile breakdown, GitHub Secrets for Docker Hub auth, CI/CD workflow for automated image builds, verification pipeline, and Jenkins vs GitHub Actions comparison.
 * [**Unit 4: GitHub Actions Test Automation**](./theory/Unit4/Github-Actions-Automations.md) - Backend API test automation with FastAPI, pytest parameterized testing, CI workflow for automated test execution, testing pyramid, edge cases, mocking, and real-world expansion strategies.
@@ -127,7 +128,8 @@ Containerization-and-Devops/
 │   │   ├── Git Basics.md               # Git & Version Control (CVCS/DVCS, Branching, Merging)
 │   │   ├── Git Hands on/               # Practical Git & GitHub Guides
 │   │   │   ├── Version Control.md      # Evolution, setups, CLI areas, and config
-│   │   │   └── Git and GitHub.md       # Keys/Auth, branch management, rebase, and tags
+│   │   │   ├── Git and GitHub.md       # Keys/Auth, branch management, rebase, and tags
+│   │   │   └── Git-Branch-Merge-and-Rebase.md  # Branching, merge vs rebase, workflows
 │   │   ├── Github Actions.md           # GitHub Actions CI/CD (Workflows, Matrix, Docker)
 │   │   ├── Docker With Github Actions.md # FastAPI + Docker + GitHub Actions CD Pipeline
 │   │   ├── Github Actions Automations.md # API Test Automation with pytest + CI
