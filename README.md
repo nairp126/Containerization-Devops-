@@ -65,6 +65,7 @@ Welcome to my personal laboratory and documentation repository for the **Contain
 * [**Unit 4: Git and GitHub Hands-On**](./theory/Unit4/Git-Hands-on/Git-and-GitHub.md) - SSH key and GPG signing setup, GitHub authentication, branch management, merge conflict resolution, stashing, rebasing, and release tagging.
 * [**Unit 4: Git Branch, Merge & Rebase**](./theory/Unit4/Git-Hands-on/Git-Branch-Merge-and-Rebase.md) - Branch lifecycle, fast-forward vs 3-way merge, rebase internals, interactive rebase (squash/fixup/reword), merge conflict resolution, the Golden Rule of Rebasing, Git Flow vs GitHub Flow vs Trunk-Based Development.
 * [**Unit 4: Git Remote Commands & Submodules**](./theory/Unit4/Git-Hands-on/Git-Remote-Commands.md) - Remote management (origin/upstream), fetch vs pull vs push, refspecs, remote-tracking branches, forking workflow, Git submodules (adding, pinning, updating, removing), submodules vs subtrees vs package managers.
+* [**Unit 4: Git Stash — Temporarily Shelving Work**](./theory/Unit4/Git-Hands-on/Git-Stash.md) - Stash internals (index/working-tree/untracked commits), stash stack (LIFO), push/pop/apply/drop/clear/branch, --include-untracked, --staged, conflict handling, recovering dropped stashes, stash vs WIP commit.
 * [**Unit 4: GitHub Actions — CI/CD Automation**](./theory/Unit4/Github-Actions.md) - Workflow YAML anatomy, event triggers (push/PR/cron/manual), matrix builds for parallel testing, secrets management, Docker integration, marketplace actions, job dependencies, and GitHub Actions vs Jenkins comparison.
 * [**Unit 4: Docker + GitHub Actions — Automated Container Delivery**](./theory/Unit4/Docker-With-Github-Actions.md) - FastAPI containerization, Dockerfile breakdown, GitHub Secrets for Docker Hub auth, CI/CD workflow for automated image builds, verification pipeline, and Jenkins vs GitHub Actions comparison.
 * [**Unit 4: GitHub Actions Test Automation**](./theory/Unit4/Github-Actions-Automations.md) - Backend API test automation with FastAPI, pytest parameterized testing, CI workflow for automated test execution, testing pyramid, edge cases, mocking, and real-world expansion strategies.
@@ -131,7 +132,8 @@ Containerization-and-Devops/
 │   │   │   ├── Version Control.md      # Evolution, setups, CLI areas, and config
 │   │   │   ├── Git and GitHub.md       # Keys/Auth, branch management, rebase, and tags
 │   │   │   ├── Git-Branch-Merge-and-Rebase.md  # Branching, merge vs rebase, workflows
-│   │   │   └── Git-Remote-Commands.md  # Remotes, fetch/pull/push, submodules
+│   │   │   ├── Git-Remote-Commands.md  # Remotes, fetch/pull/push, submodules
+│   │   │   └── Git-Stash.md            # Stash stack, apply/pop, conflict recovery
 │   │   ├── Github Actions.md           # GitHub Actions CI/CD (Workflows, Matrix, Docker)
 │   │   ├── Docker With Github Actions.md # FastAPI + Docker + GitHub Actions CD Pipeline
 │   │   ├── Github Actions Automations.md # API Test Automation with pytest + CI
